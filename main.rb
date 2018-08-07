@@ -13,7 +13,7 @@ base_url = "https://api.sportradar.us"
 api_key = "?api_key=pkzwn64jjc8s7xuzpmch46a3"
 
 
-url = URI(base_url + sport + language + year + season)
+# url = URI(base_url + sport + language + year + season)
 http = Net::HTTP.new(url.host, url.port)
 http.use_ssl = true
 http.verify_mode = OpenSSL::SSL::VERIFY_NONE
