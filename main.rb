@@ -14,6 +14,7 @@ api_key = "?api_key=pkzwn64jjc8s7xuzpmch46a3"
 
 
 # url = URI(base_url + sport + language + year + season)
+# nfl url format
 http = Net::HTTP.new(url.host, url.port)
 http.use_ssl = true
 http.verify_mode = OpenSSL::SSL::VERIFY_NONE
