@@ -14,7 +14,7 @@ api_key = "?api_key=pkzwn64jjc8s7xuzpmch46a3"
 
 
 # url = URI(base_url + sport + language + year + season)
-# nfl url format
+# nfl url format = url = URI("https://api.sportradar.us/nfl-ot1/games/2006/REG/03/schedule.xml?api_key={your_api_key}")
 http = Net::HTTP.new(url.host, url.port)
 http.use_ssl = true
 http.verify_mode = OpenSSL::SSL::VERIFY_NONE
