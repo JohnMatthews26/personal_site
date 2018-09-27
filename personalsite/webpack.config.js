@@ -6,7 +6,7 @@ module.exports = {
   context: __dirname,
   entry: "./frontend/main.jsx",
   output: {
-    path: path.resolve(__dirname),
+    path: path.resolve(__dirname, 'app', 'assets', 'javascripts'),
     filename: "bundle.js"
   },
   module: {
@@ -17,7 +17,7 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           query: {
-            presets: ['es2015', 'react']
+            presets: ['@babel/env', '@babel/react']
           }
         },
       }
