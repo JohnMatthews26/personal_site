@@ -7,11 +7,12 @@ import {
 	Link,
 	HashRouter
 } from 'react-router-dom';
-
-
+import ProjectContainer from './projects/projects';
+import FireworkContainer from './fireworks/fireworks';
 const App = () => (
 	<div className='main-div'>
-    Hello
+    <ProjectContainer/>
+    <FireworkContainer/>
 	</div>
 );
 
