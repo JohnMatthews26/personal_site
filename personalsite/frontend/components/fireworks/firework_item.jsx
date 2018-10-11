@@ -8,8 +8,8 @@ function fireworkCreator(){
 
   images.forEach(function(element){
     let fireworkObj = {
-      xcoord: Math.random() * 600,
-      ycoord: Math.random() * 600,
+      xcoord: Math.random() * 500,
+      ycoord: Math.random() * 500,
       imageString: ""
     };
     fireworkObj.imageString = element;

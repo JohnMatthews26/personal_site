@@ -10,49 +10,62 @@ class Firework extends Component {
   constructor(props) {
     super(props);
     this.state = {
-
+      fireworks: ""
     };
     this.playFireworks = this.playFireworks.bind(this);
     this.fireworkShow = this.fireworkShow.bind(this);
+
   }
   componentDidMount(){
-    // console.log(window.location.origin);
+
     let fireworks = fireworkCreator();
-    console.log(fireworks);
+    this.setState({["fireworks"]: fireworks});
+
     let canvas = ReactDOM.findDOMNode(this.refs.canvas);
     this.stage = new createjs.Stage(canvas);
-    this.fireworkShow(fireworks);
+    setInterval(this.fireworkShow, 5000);
   }
-  fireworkShow(fireworks){
-    // console.log(fireworks);
-    this.playFireworks(fireworks[0]);
-    this.playFireworks(fireworks[1]);
-    this.playFireworks(fireworks[2]);
-    this.playFireworks(fireworks[3]);
-    this.playFireworks(fireworks[4]);
-    this.playFireworks(fireworks[5]);
-    this.playFireworks(fireworks[6]);
 
+  fireworkShow(){
+    let stage = this.stage;
 
+    this.playFireworks(this.state.fireworks[0]);
+    this.playFireworks(this.state.fireworks[1]);
+    this.playFireworks(this.state.fireworks[2]);
+    this.playFireworks(this.state.fireworks[3]);
+    this.playFireworks(this.state.fireworks[4]);
+    this.playFireworks(this.state.fireworks[5]);
+    this.playFireworks(this.state.fireworks[6]);
+    setTimeout(removeFireworks, 2000);
+
+    function removeFireworks() {
+      console.log("running 2k");
+      stage.removeAllChildren();
+      stage.update();
+    }
   }
 
   playFireworks(el){
-    console.log(el);
+
     let imagedup = el.imageString;
     let stage = this.stage;
-    setInterval(singleFirework,100);
+    // setInterval(singleFirework,100);
+    createjs.Ticker.addEventListener("tick", singleFirework);
+
     function singleFirework() {
-// need to fix the image file paths. currently says localhost//images/fw01...etc
+
       let fireworkbitmap = new createjs.Bitmap(imagedup[0]);
       fireworkbitmap.x = el.xcoord;
       fireworkbitmap.y = el.ycoord;
       stage.addChild(fireworkbitmap);
       stage.update();
+
       imagedup = imagedup.slice(1);
       if (imagedup.length === 0){
-        stage.removeAllChildren();
-        clearInterval(singleFirework);
-        stage.update();
+
+        // clearInterval(singleFirework);
+        createjs.Ticker.removeEventListener("tick", singleFirework);
+
       }
 
     }
