@@ -10,22 +10,44 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
- *= require_self
+
+
  */
+
+
+
  html {
      height: 100%;
      width: 100%;
+     margin: 0;
+     padding: 0;
  }
 
  body.vsc-initialized {
      height: 100%;
      width: 100%;
+     margin: 0;
+     padding: 0;
  }
 
  main#root {
      height: 100%;
      width: 100%;
+
  }
 
  .main-div {height: 100%;width: 100%;}
+
+ canvas#canvas {
+     background-image: url(https://cdn.wallpapersafari.com/4/30/mGH1yt.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+ }
+ .firework-main-div {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}

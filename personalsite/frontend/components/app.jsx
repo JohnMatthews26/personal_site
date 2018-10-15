@@ -9,10 +9,14 @@ import {
 } from 'react-router-dom';
 import ProjectContainer from './projects/projects';
 import FireworkContainer from './fireworks/fireworks';
+import SplashContainer from './splash/splash';
+import AboutMe from './about_me/about_me';
 const App = () => (
 	<div className='main-div'>
+		<SplashContainer/>
+		<AboutMe/>
     <ProjectContainer/>
-    <FireworkContainer/>
+
 	</div>
 );
 

@@ -17,9 +17,9 @@ class Project extends Component {
 
     return (
 
-      <div className="projects-main-div">
+      <section className="projects-section">
 
-      </div>
+      </section>
     );
   }
 }
