@@ -21,14 +21,16 @@ class AboutMe extends Component {
     return (
 
       <section className="AboutMe-section">
-
-
+        <div className="title-container">
+          <h1 className="section-title">
+            aboutMe
+          </h1>
+        </div>
         <section className="hobbies">
           <ul className="hobbies-ul">
             <li className="hobbies-li">
               <div className="hobby-img-text-div">
                 <h2 className="hobby-title">Chess</h2>
-
               </div>
               <img
                 className="hobbies-img"

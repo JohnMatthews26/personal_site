@@ -42,6 +42,11 @@ class Splash extends Component {
     return (
 
       <section className="splash-section">
+        <div className="title-container">
+          <h1 className="section-title">
+            home
+          </h1>
+        </div>
         <span>Hi, I'm John Matthews, and I'm looking for a full time role as a
           <span ref="roleGeneration" className="keywords"></span>
         </span>

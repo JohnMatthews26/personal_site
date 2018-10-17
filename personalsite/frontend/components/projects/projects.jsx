@@ -18,7 +18,11 @@ class Project extends Component {
     return (
 
       <section className="projects-section">
-
+        <div className="title-container">
+          <h1 className="section-title">
+            projects
+          </h1>
+        </div>
       </section>
     );
   }
