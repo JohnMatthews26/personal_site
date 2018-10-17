@@ -1,0 +1,14 @@
+
+section.splash-section {
+    height: 100vh;
+}
+
+section.AboutMe-section {
+    height: 100vh;
+}
+img.hobbies-img {
+    height: 30vh;
+}
+img#Roscoe {
+    transform: rotate(90deg);
+}

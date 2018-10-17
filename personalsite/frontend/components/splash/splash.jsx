@@ -43,7 +43,7 @@ class Splash extends Component {
 
       <section className="splash-section">
         <span>Hi, I'm John Matthews, and I'm looking for a full time role as a
-          <span ref="roleGeneration"></span>
+          <span ref="roleGeneration" className="keywords"></span>
         </span>
       </section>
     );
