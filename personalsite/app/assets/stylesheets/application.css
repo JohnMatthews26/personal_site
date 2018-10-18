@@ -16,6 +16,10 @@
 
 
 
+
+
+
+
  ol, ul {
      list-style: none outside none;
  }
@@ -29,6 +33,7 @@
      width: 100%;
      margin: 0;
      padding: 0;
+     font-family: 'Niramit', sans-serif;
  }
 
  ul {
@@ -125,6 +130,7 @@ img#Roscoe {
 
 section.skills-section {
     height: 100vh;
+    background: #16425B;
 }
 
 
@@ -139,8 +145,9 @@ section.skills-section {
 }
 
 section.skills-column {
-
     height: 100%;
+    display: flex;
+    align-items: center;
 }
 ul.skills-ul {
   margin-top: 5vh;
@@ -148,6 +155,7 @@ ul.skills-ul {
 
 li.skills-li {
     margin-bottom: 2vh;
+    color: #2F6690;
 }
 
 
@@ -155,7 +163,31 @@ li.skills-li {
 .skills-border {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   height: 50vh;
+  box-shadow: 2px 0px 7px 10px #387CA5;
+  padding: 3vh;
+  background: #D9DCD6;
+}
+
+h1#skills-title {
+    color: #81D3C7;
+}
+
+h2.skills-h2 {
+    color: #387CA5;
+}
+
+/* NAVBAR SECTION */
+
+.navbar-div {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    right: 0px;
+    overflow-x: hidden;
+    font-variant: all-small-caps;
+    padding: 8px 0;
+    color: #7f97a5;
+    /* text-shadow: 0px 0px 0 #3A7CA5, 0px 0px 0 #000, 0px 0px 0 #000, 0px 0px 0 #000; */
 }

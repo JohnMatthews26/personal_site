@@ -41,7 +41,7 @@ class Splash extends Component {
 
     return (
 
-      <section className="splash-section">
+      <section className="splash-section" id="splash-parent">
         <div className="title-container">
           <h1 className="section-title">
             home

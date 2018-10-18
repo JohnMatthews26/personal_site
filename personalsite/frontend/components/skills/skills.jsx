@@ -19,10 +19,10 @@ class Skills extends Component {
   render(){
 
     return (
-      <section className="skills-section">
+      <section className="skills-section" id="skills-parent">
         <div className="section-container">
           <div className="title-container">
-            <h1 className="section-title">
+            <h1 className="section-title" id="skills-title">
               skills
             </h1>
           </div>

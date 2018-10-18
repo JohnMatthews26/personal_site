@@ -20,7 +20,7 @@ class AboutMe extends Component {
 
     return (
 
-      <section className="AboutMe-section">
+      <section className="AboutMe-section" id="aboutme-parent">
         <div className="title-container">
           <h1 className="section-title">
             aboutMe

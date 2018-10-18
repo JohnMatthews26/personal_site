@@ -17,7 +17,7 @@ class Project extends Component {
 
     return (
 
-      <section className="projects-section">
+      <section className="projects-section" id="projects-parent">
         <div className="title-container">
           <h1 className="section-title">
             projects
