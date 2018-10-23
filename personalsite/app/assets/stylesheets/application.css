@@ -20,6 +20,7 @@
 
 
 
+
  ol, ul {
      list-style: none outside none;
  }
@@ -72,11 +73,21 @@
      flex-direction: column;
  }
 
+ /* Splash section  */
+
+ div#splash-content-container {
+     flex: 19;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ section.splash-section {
+     height: 100vh;
+ }
 /* aboutME SECTION */
 
-section.splash-section {
-    height: 100vh;
-}
+
 
 section.AboutMe-section {
     height: 100vh;
@@ -142,6 +153,7 @@ section.skills-section {
     justify-content: space-evenly;
     text-align: center;
     flex: 19;
+    margin-right: 10vw;
 }
 
 section.skills-column {
@@ -180,7 +192,7 @@ h2.skills-h2 {
 /* NAVBAR SECTION */
 
 .navbar-div {
-    width: 130px;
+    width: 10vw;
     position: fixed;
     z-index: 1;
     top: 0px;
@@ -195,4 +207,24 @@ h2.skills-h2 {
 
 .navbar-el {
     cursor: pointer;
+}
+
+
+/* projects section */
+
+section#projects-parent {
+    height: 100vh;
+}
+div#projects-content-container {
+  flex: 19;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5vw;
+}
+
+.project-item-container {
+    height: 30vh;
+    width: 25vw;
+    border: 1px solid black;
 }
