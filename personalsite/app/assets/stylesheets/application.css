@@ -187,7 +187,12 @@ h2.skills-h2 {
     right: 0px;
     overflow-x: hidden;
     font-variant: all-small-caps;
+    font-size: 2.1vh;
     padding: 8px 0;
     color: #7f97a5;
     /* text-shadow: 0px 0px 0 #3A7CA5, 0px 0px 0 #000, 0px 0px 0 #000, 0px 0px 0 #000; */
+}
+
+.navbar-el {
+    cursor: pointer;
 }

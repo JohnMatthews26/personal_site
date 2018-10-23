@@ -21,10 +21,10 @@ class Navbar extends Component {
     return (
 
       <div className="navbar-div">
-        <div onClick={() => this.handleClick("splash-parent")}>home</div>
-        <div onClick={() => this.handleClick("aboutme-parent")}>aboutMe</div>
-        <div onClick={() => this.handleClick("skills-parent")}>skills</div>
-        <div onClick={() => this.handleClick("projects-parent")}>projects</div>
+        <div className="navbar-el" onClick={() => this.handleClick("splash-parent")}>home</div>
+        <div className="navbar-el" onClick={() => this.handleClick("aboutme-parent")}>aboutMe</div>
+        <div className="navbar-el" onClick={() => this.handleClick("skills-parent")}>skills</div>
+        <div className="navbar-el" onClick={() => this.handleClick("projects-parent")}>projects</div>
       </div>
     );
   }

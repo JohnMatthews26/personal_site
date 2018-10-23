@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Modal from 'react-modal';
 import {withRouter} from 'react-router';
 import ReactDOM from 'react-dom';
 
@@ -42,14 +41,19 @@ class Splash extends Component {
     return (
 
       <section className="splash-section" id="splash-parent">
-        <div className="title-container">
-          <h1 className="section-title">
-            home
-          </h1>
+        <div className="section-container">
+          <div className="title-container">
+            <h1 className="section-title">
+              home
+            </h1>
+          </div>
+          <div id="splash-content-container">
+            <div id="splash-blurb">Hi, I'm <span className="keywords">John Matthews</span>,
+              and I'm looking for a full time role as a
+              <span ref="roleGeneration" className="keywords"></span>
+            </div>
+          </div>
         </div>
-        <span>Hi, I'm John Matthews, and I'm looking for a full time role as a
-          <span ref="roleGeneration" className="keywords"></span>
-        </span>
       </section>
     );
   }
