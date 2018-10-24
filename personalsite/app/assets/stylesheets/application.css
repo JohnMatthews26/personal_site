@@ -228,3 +228,8 @@ div#projects-content-container {
     width: 25vw;
     border: 1px solid black;
 }
+
+.styles_modal__gNwvD.project-modal {
+    width: 50vw;
+    height: 50vh;
+}

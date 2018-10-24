@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Modal from 'react-modal';
+import Modal from 'react-responsive-modal';
 import {withRouter} from 'react-router';
 import ReactDOM from 'react-dom';
 
@@ -24,8 +24,9 @@ class ProjectItem extends Component {
           open={ this.state.open }
           onClose={ () => this.setState({ open: false }) }
           center
-          showCloseIcon={ true }
-          className="modal">
+          showCloseIcon={ false }
+          classNames={{ modal: 'project-modal'}}
+          >
           <div className="modal-box-container">
 
           </div>
