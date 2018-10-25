@@ -13,6 +13,8 @@ import SplashContainer from './splash/splash';
 import AboutMe from './about_me/about_me';
 import Skills from './skills/skills';
 import Navbar from './navbar/navbar';
+
+
 const App = () => (
 	<div className='main-div'>
 		<div className="all-but-navbar-div">
