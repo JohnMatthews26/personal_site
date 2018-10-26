@@ -42,7 +42,7 @@ class Project extends Component {
         type="Social Media"
         blurb="Dogstagram was my first true full-stack project.
         It is a social media site similar to Instagram, however,
-        intended for users share pictures of their dogs."
+        intended for users to share pictures of their dogs."
         backend="Ruby on Rails"
         frontend="React/Redux"
         img="./project_imgs/Dogstagram_img.png"
@@ -67,7 +67,7 @@ class Project extends Component {
         backend="Node.js/Express.js"
         frontend="React Native"
         stack="MERN stack"
-        img="./project_imgs/transit_ninja.png"
+        img="./project_imgs/transitninja_splash_2.png"
         />;
     } else {
 
@@ -98,14 +98,14 @@ class Project extends Component {
     }
   }
   render(){
-    
+
 
     return (
 
       <section className="projects-section" id="projects-parent">
         <div className="section-container">
           <div className="title-container">
-            <h1 className="section-title">
+            <h1 className="section-title" id="project-title">
               projects
             </h1>
           </div>

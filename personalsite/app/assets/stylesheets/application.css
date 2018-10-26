@@ -17,6 +17,10 @@
 
 
 
+
+
+
+
 ul {
   list-style: none;
 }
@@ -34,7 +38,7 @@ img {
  ol, ul {
      list-style: none outside none;
  }
- h1, h2 {
+ h1, h2, h3 {
    margin: 0;
    padding: 0;
  }
@@ -224,6 +228,7 @@ h2.skills-h2 {
 
 section#projects-parent {
     height: 100vh;
+    background: #81c3d7;
 }
 div#projects-content-container {
   flex: 19;
@@ -281,4 +286,45 @@ div#projects-content-container {
 .project-img-container {
     height: 50vh;
     width: 100%;
+}
+
+.project-item-info {
+    border-top: 3px solid #387CA5;
+    height: 30vh;
+    background: #d9dcd6;
+}
+
+.project-title-div {
+    display: flex;
+    /* justify-content: flex-start; */
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h2.project-title {
+    margin-left: 2vw;
+}
+h3.project-info {
+    margin-left: 2vw;
+}
+
+h1#project-title {
+    color: #d9dcd6;
+}
+
+
+
+h2.project-title {
+    color: #3a7ca5;
+}
+
+h3.project-info {
+    color: #7f97a5;
+    font-size: large;
+}
+
+.project-blurb-div {
+    text-align: left;
+    margin-left: 2vw;
+    margin-top: 2vh;
 }

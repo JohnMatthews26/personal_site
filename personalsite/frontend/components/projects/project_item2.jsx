@@ -33,7 +33,17 @@ class ProjectItemTwo extends Component {
 
           <div className="modal-box-container">
             <div className="project-item-content">
-              <img src={this.props.img} className="project-img"></img>
+              <div className="project-img-container">
+                <img src={this.props.img} className="project-img"></img>
+              </div>
+              <div className="project-item-info">
+                <div className="project-title-div">
+                  <h2 className="project-title">{this.props.name}</h2>
+                  <h3 className="project-info">{this.props.backend}</h3>
+                  <h3 className="project-info">{this.props.frontend}</h3>
+                </div>
+                <div className="project-blurb-div">{this.props.blurb}</div>
+              </div>
             </div>
 
           </div>
