@@ -90,7 +90,7 @@ class Project extends Component {
         navigate using spatial language directions."
         backend="Ruby on Rails"
         frontend="React/Redux"
-        img="./project_imgs/tour-de-sf_pic.png"
+        img="./project_imgs/tour-de-sf.png"
         />;
     } else {
 
