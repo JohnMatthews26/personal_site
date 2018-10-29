@@ -23,7 +23,7 @@ class AboutMe extends Component {
       <section className="AboutMe-section" id="aboutme-parent">
         <div className="title-container">
           <h1 className="section-title">
-            aboutMe
+            about
           </h1>
         </div>
         <section className="hobbies">
@@ -58,6 +58,8 @@ class AboutMe extends Component {
                  src="https://res.cloudinary.com/roscoe/image/upload/v1500503776/IMG_0354_p3hunu.jpg">
                </img>
              </li>
+           </ul>
+           <ul className="hobbies-ul">
             <li className="hobbies-li">
               <div className="hobby-img-text-div">
                 <h2 className="hobby-title">ESports</h2>

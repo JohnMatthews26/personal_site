@@ -21,6 +21,9 @@
 
 
 
+
+
+
 ul {
   list-style: none;
 }
@@ -101,6 +104,10 @@ img {
  }
 /* aboutME SECTION */
 
+
+section.hobbies {
+    display: flex;
+}
 
 
 section.AboutMe-section {
@@ -228,7 +235,7 @@ h2.skills-h2 {
 
 section#projects-parent {
     height: 100vh;
-    background: #81c3d7;
+    background: #d9dcd6;
 }
 div#projects-content-container {
   flex: 19;
@@ -261,9 +268,10 @@ div#projects-content-container {
     border-radius: 3px;
     box-shadow: 2px 0px 7px 10px #387CA5;
     width: 50vw;
-    height: 80vh;
+    height: 62vh;
     background-color: white;
     margin-top: 10vh;
+    min-width: 550px;
 }
 
 .single-modal-container {
@@ -284,14 +292,14 @@ div#projects-content-container {
     width: 100%;
 }
 .project-img-container {
-    height: 50vh;
+    height: 40vh;
     width: 100%;
 }
 
 .project-item-info {
     border-top: 3px solid #387CA5;
     height: 30vh;
-    background: #d9dcd6;
+    /* background: #d9dcd6; */
 }
 
 .project-title-div {
@@ -309,7 +317,7 @@ h3.project-info {
 }
 
 h1#project-title {
-    color: #d9dcd6;
+    color: #2f6690;
 }
 
 
