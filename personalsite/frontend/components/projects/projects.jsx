@@ -110,14 +110,28 @@ class Project extends Component {
             </h1>
           </div>
           <div id="projects-content-container">
-            <div id="project1-container" className="single-modal-container" onClick={this.toggleModal1}>
-              {this.modalDiv1()}
-            </div>
-            <div id="project2-container" className="single-modal-container" onClick={this.toggleModal2}>
-              {this.modalDiv2()}
-            </div>
-            <div id="project3-container" className="single-modal-container" onClick={this.toggleModal3}>
-              {this.modalDiv3()}
+            <div id="project-items-container">
+              <div id="project1-container" className="single-modal-container" onClick={this.toggleModal1}>
+                <div className="project-title-overlay">
+                  <h2 className="project-title">Click to learn more</h2>
+                </div>
+                <img className="project-splash-img" src="./project_imgs/Dogstagram_img.png"></img>
+                {this.modalDiv1()}
+              </div>
+              <div id="project2-container" className="single-modal-container" onClick={this.toggleModal2}>
+                <div className="project-title-overlay">
+                  <h2 className="project-title">Click to learn more</h2>
+                </div>
+                <img className="project-splash-img" src="./project_imgs/transitninja_splash_2.png"></img>
+                {this.modalDiv2()}
+              </div>
+              <div id="project3-container" className="single-modal-container" onClick={this.toggleModal3}>
+                <div className="project-title-overlay">
+                  <h2 className="project-title">Click to learn more</h2>
+                </div>
+                <img className="project-splash-img" src="./project_imgs/tour-de-sf.png"></img>
+                {this.modalDiv3()}
+              </div>
             </div>
           </div>
         </div>
