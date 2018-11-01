@@ -25,6 +25,7 @@ class Navbar extends Component {
         <div className="navbar-el" onClick={() => this.handleClick("aboutme-parent")}>about</div>
         <div className="navbar-el" onClick={() => this.handleClick("projects-parent")}>projects</div>
         <div className="navbar-el" onClick={() => this.handleClick("skills-parent")}>skills</div>
+        <div className="navbar-el" onClick={() => this.handleClick("contact-parent")}>contact</div>
       </div>
     );
   }

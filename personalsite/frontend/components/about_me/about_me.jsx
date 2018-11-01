@@ -9,9 +9,15 @@ class AboutMe extends Component {
     this.state = {
 
     };
+    this.handleClick = this.handleClick.bind(this);
+  }
+  handleClick(id){
+    let el = document.getElementById(id);
+    if (el){
+      el.scrollIntoView();
+    }
 
   }
-
 
 
 
@@ -137,9 +143,15 @@ class AboutMe extends Component {
                 <li className="blurb-li">
                   <div className="blurb-li-date">Present</div>
                   <div className="blurb-li-content">
-                    I am actively seeking full-time employment as a Software Developer.
-                    I am open to relocation to most regions in the US, and would love to connect.
-                    Please feel free to leave a message, and I will respond as soon as possible.
+                    I am actively seeking full-time
+                    employment as a Software Developer.
+                    I am open to relocation to most
+                    regions in the US, and would love to
+                    <span id="contact-link"
+                      onClick={() => this.handleClick("contact-parent")}
+                      > connect</span>.
+                    Please feel free to leave a message,
+                    and I will respond as soon as possible.
 
                   </div>
                 </li>
