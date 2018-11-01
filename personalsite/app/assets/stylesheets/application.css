@@ -40,6 +40,9 @@
 
 
 
+
+
+
 ul {
   list-style: none;
 }
@@ -905,4 +908,72 @@ img.project-splash-img {
 }
 .single-modal-container:hover .project-title-overlay {
   opacity: 1;
+}
+
+/* Contact SECTION */
+
+section#contact-parent {
+    background: steelblue;
+    height: 100vh;
+}
+
+div#contact-content-container {
+    flex: 19;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+form.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+}
+
+input.contact-input {
+    width: 100%;
+    height: 30px;
+    font-size: 12px;
+}
+
+textarea#contact-text-area {
+    width: 100%;
+    height: 200px;
+    font-size: 12px;
+}
+
+img.link-logo-img {
+    height: 50px;
+    margin-left: 20px;
+}
+
+.footer-bar {
+    flex: 4;
+    background: snow;
+}
+
+.footer-bar-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.copyright {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+h1#contact-title {
+    color: azure;
+}
+img#resume-pic {
+    height: 100%;
+    width: 100%;
+    margin-left: 0px;
+}
+
+a#resume-link {
+    width: 100px;
 }
