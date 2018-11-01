@@ -8,12 +8,11 @@ import {
 	HashRouter
 } from 'react-router-dom';
 import ProjectContainer from './projects/projects';
-import FireworkContainer from './fireworks/fireworks';
 import SplashContainer from './splash/splash';
 import AboutMe from './about_me/about_me';
 import Skills from './skills/skills';
 import Navbar from './navbar/navbar';
-
+import MessageContainer from './contact/message_container';
 
 const App = () => (
 	<div className='main-div'>
@@ -22,6 +21,7 @@ const App = () => (
 			<AboutMe/>
 	    <ProjectContainer/>
 			<Skills/>
+			<MessageContainer/>
 		</div>
 		<Navbar/>
 	</div>
