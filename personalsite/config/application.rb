@@ -9,13 +9,13 @@ Bundler.require(*Rails.groups)
 module Personalsite
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
-    config.load_defaults 5.1
+    config.load_defaults 5.2
     config.action_mailer.delivery_method = :smtp
     config.action_mailer.smtp_settings = {
       :address => "smtp.gmail.com",
       :port => 587,
-      :user_name => Rails.application.secrets.email_user_name,
-      :password => Rails.application.secrets.email_password,
+      :user_name => Rails.application.credentials.email_username,
+      :password => Rails.application.credentials.email_password,
       :authentication => "plain",
       :enable_starttls_auto => true
     }
