@@ -18,3 +18,5 @@
 /secrets.yml
 /config/secrets.yml
 .byebug_history
+config/master.key
+/master.key
