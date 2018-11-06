@@ -103,7 +103,7 @@ class AboutMe extends Component {
             <section className="aboutme-blurb">
               <ul>
                 <li className="blurb-li">
-                  <div className="blurb-li-date">September 2014</div>
+                  <div className="blurb-li-date">Sept 2014</div>
                   <div className="blurb-li-content">
                     I discovered my passion for coding
                     while working as a Trader and Operations Associate at
@@ -119,7 +119,7 @@ class AboutMe extends Component {
                    </div>
                  </li>
                  <li className="blurb-li">
-                   <div className="blurb-li-date">October 2016</div>
+                   <div className="blurb-li-date">Oct 2016</div>
                    <div className="blurb-li-content">
                      After the hedge fund closed,
                       I was contemplating a career change into Software Development.
@@ -134,7 +134,7 @@ class AboutMe extends Component {
                   </div>
                 </li>
                 <li className="blurb-li">
-                  <div className="blurb-li-date">September 2017</div>
+                  <div className="blurb-li-date">Sept 2017</div>
                   <div className="blurb-li-content">
                     I tentatively began job searching after my App Academy course concluded,
                     but felt I was not fully prepared to enter the workforce.

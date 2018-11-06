@@ -990,7 +990,7 @@ span#contact-link {
 /*  */
 /*  */
 /*  */
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 320px) and (max-width: 640px) {
   html{
     font-size: 20px;
   }
@@ -1005,7 +1005,6 @@ span#contact-link {
       font-size: 20px;
   }
   .navbar-div {
-    width: 10vw;
     position: fixed;
     z-index: 1;
     top: 0px;
@@ -1017,6 +1016,7 @@ span#contact-link {
     margin-right: 2vw;
     color: white;
     text-shadow: -1px 1px 0 black, 0px 1px 0 black, 0px 1px 0 black, 0px 2px 0 black;
+    margin-top: 2vh;
   }
 
   .blurb-li-date {
@@ -1026,7 +1026,7 @@ span#contact-link {
   .blurb-li-content {
     font-size: 11px;
     width: 200px;
-    height: 125px;
+
   }
 
   li.hobbies-li {
@@ -1036,7 +1036,7 @@ span#contact-link {
   }
 
   section.hobbies {
-    display: flex;
+    display: none;
     flex-direction: column;
   }
 
@@ -1057,9 +1057,27 @@ span#contact-link {
 
 li.skills-li {
     font-size: 12px;
+    margin-bottom: 4px;
 }
 .skills-border {
-    height: 30vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 0px 7px 10px #387CA5;
+    padding: 10px;
+    background: #D9DCD6;
+}
+.single-modal-container {
+    max-height: 150px;
+    max-width: 250px;
+}
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+ul.skills-ul {
+    margin-top: 7px;
 }
 
 }
