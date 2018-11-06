@@ -101,7 +101,7 @@ class AboutMe extends Component {
               </ul>
             </section>
             <section className="aboutme-blurb">
-              <ul>
+              <ul className="timeline-ul">
                 <li className="blurb-li">
                   <div className="blurb-li-date">Sept 2014</div>
                   <div className="blurb-li-content">

@@ -570,6 +570,7 @@ span#contact-link {
   .blurb-li-content {
     font-size: 11px;
     width: 200px;
+    height: auto;
 
   }
 
@@ -586,6 +587,8 @@ span#contact-link {
 
   section.aboutme-blurb {
     margin-right: 35px;
+    height: 100%;
+    margin-top: 20px;
   }
   div#project-items-container {
     display: FLEX;
@@ -649,6 +652,13 @@ h3.project-info {
     background-color: white;
     margin-top: 10vh;
     min-width: 300px;
+}
+ul.timeline-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+
 }
 
 }
