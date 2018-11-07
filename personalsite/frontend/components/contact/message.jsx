@@ -85,7 +85,7 @@ class Message extends Component {
               </a>
 
               <a className="link"
-                href="./project_imgs/resume.pdf"
+                href="./project_imgs/resume2.pdf"
                 target="_blank"
                 id="resume-link">
                 <img src="./project_imgs/resume_logo.png"
