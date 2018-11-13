@@ -133,13 +133,7 @@ class AboutMe extends Component {
                     I moved to San Francisco to attend App Academy.
                   </div>
                 </li>
-                <li className="blurb-li">
-                  <div className="blurb-li-date">Sept 2017</div>
-                  <div className="blurb-li-content">
-                    I tentatively began job searching after my App Academy course concluded,
-                    but felt I was not fully prepared to enter the workforce.
-                  </div>
-                </li>
+                
                 <li className="blurb-li">
                   <div className="blurb-li-date">Present</div>
                   <div className="blurb-li-content">
