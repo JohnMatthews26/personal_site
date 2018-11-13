@@ -130,7 +130,7 @@ class AboutMe extends Component {
                   <div className="blurb-li-content">
                     While interning with a private equity group I decided to fully commit to
                     a career change, and
-                    I moved out to San Francisco to attend App Academy.
+                    I moved to San Francisco to attend App Academy.
                   </div>
                 </li>
                 <li className="blurb-li">

@@ -61,7 +61,7 @@ class Project extends Component {
         type="Travel/Transportation"
         blurb="transit ninja is an iOS app that
         shows real time location of
-        public transit busses in San Francisco.
+        public transit buses in San Francisco.
         Users can input thier desired destination
         to see the optimal route, and determine which bus they need to get on."
         backend="Node.js/Express.js"
@@ -81,7 +81,7 @@ class Project extends Component {
         toggleModal={this.toggleModal3}
         name="Tour de SF"
         type="Google Spatial Language Challenge App"
-        blurb="We were one of four teams selected to
+        blurb="One of four teams selected to
         compete in Google's Spatial Language Challenge.
         We were tasked with building an app that allows users
         to input spatial language directions from
